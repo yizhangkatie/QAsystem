@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Fira Sans,
+        Droid Sans,
+        Arial,
+        Helvetica Neue,
+        sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* body::before {
+  content: '';
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100vw; 
+  height: 100vh; 
+  background-image: url('/public/images/bg.png'); 
+  background-size: 100% 100%; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  opacity: 0.5; 
+  z-index: 1; 
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #74b6df; /* 超链接样式*/
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.homepage-bg {
+    position: fixed;
+    background-image: url("/images/bg.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    height: 100vh;
+    width: 100vw;
+}
